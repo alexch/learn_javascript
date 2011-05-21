@@ -1,0 +1,68 @@
+/* Solarized Palette http://ethanschoonover.com/solarized */
+/* Font Stacks http://www.artsiteframework.com/guide/fontstacks.php */
+body {
+  background-color: white;
+  font-family: Optima, Candara, "Trebuchet MS", sans-serif;
+  margin: 0px;
+  font-size: 15px;
+  line-height: 19px; }
+
+a, a:visited {
+  color: #268bd2; }
+
+.content {
+  padding: 0 18em;
+  max-width: 44em;
+  margin: 1em auto;
+  min-height: 30em; }
+  .content h1, .content h2, .content h3 {
+    font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    margin-left: -1em; }
+  .content h1 {
+    text-shadow: #999 1px 1px 1px;
+    padding: .5em .25em;
+    margin-top: 1em; }
+  .content h2 {
+    margin-top: 1em;
+    border-bottom: #268bd2 1px dotted; }
+
+.header, .footer {
+  font-size: 80%;
+  padding: .25em;
+  background-color: #ddffdd; }
+
+.header {
+  border-bottom: 1px solid #002b36;
+  text-align: left; }
+
+.footer {
+  border-top: 1px solid #002b36;
+  text-align: center; }
+
+.nav {
+  float: left;
+  background-color: #ddffdd;
+  margin: 1em;
+  padding: 0 1em 1em;
+  width: 14em;
+  font-size: 75%; }
+
+pre {
+  font-family: "Lucida Sans Typewriter Regular", "lucida console", monaco, "andale mono", "bitstream vera sans mono", consolas, "DejaVu Sans Mono", Courier, "Courier New", monospace;
+  background-color: #e9e9ff;
+  padding: .5em .25em;
+  border: 1px solid #93a1a1; }
+
+code {
+  font-family: "Lucida Sans Typewriter Regular", "lucida console", monaco, "andale mono", "bitstream vera sans mono", consolas, "DejaVu Sans Mono", Courier, "Courier New", monospace;
+  background-color: #efefff; }
+
+pre > code {
+  background-color: #e9e9ff; }
+
+li > p:nth-child(0) {
+  margin: 0; }
+
+ul li ul li {
+  margin-top: .1em;
+  margin-bottom: 1em; }

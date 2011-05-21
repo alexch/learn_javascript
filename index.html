@@ -1,39 +1,81 @@
+<html>
+<head>
+  <title>Test-First Teaching: learn_javascript: learn_javascript</title>
+  <link href="assets/style.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class='header'>
+    <h1><a href="http://testfirst.org">TestFirst.org</a></h1>
+    <h2>the home of test-first teaching</h2>
+  </div>
+  <div class="nav"><h2><a href="index.html">learn_javascript</a></h2><b>Chapters:</b><ul><li><a href="00_hello/index.html">hello</a></li><li><a href="01_properties/index.html">properties</a></li><li><a href="02_loops/index.html">loops</a></li><li><a href="03_calculator/index.html">calculator</a></li><li><a href="04_temperature/index.html">temperature</a></li><li><a href="05_dom/index.html">dom</a></li><li><a href="06_bouncing_ball/index.html">bouncing_ball</a></li></ul></div>
+  <div class="info"><h1>learn_javascript</h1><ul><li><a href="abstract.txt">abstract.txt</a></li><li><a href="jasmine.yml">jasmine.yml</a></li><li><a href="Rakefile">Rakefile</a></li><li><a href="todo.txt">todo.txt</a></li></ul></div>
+  <div class='content'>
 <h1>Learn JavaScript Test-First</h1>
-
-<p>[todo]</p>
 
 <h1>Setup</h1>
 
+<h2>Welcome!</h2>
+
+<ul>
+<li><p>Open a terminal window. (On Mac OS X you can use the <code>Terminal</code> app.)</p></li>
+<li><p>Enter the course directory. (That's the same directory that this <code>index.html</code> file is in.)</p>
+
+<pre><code>  cd learn_ruby
+</code></pre></li>
+</ul>
+
+
 <h2>Install Ruby</h2>
+
+<p>First check if you have ruby already. Try this:</p>
+
+<pre><code>    ruby -v
+</code></pre>
+
+<p>If the response is something like this</p>
+
+<pre><code>    ruby 1.9.2p180 (2011-02-18 revision 30909) [x86_64-darwin10.7.0]
+</code></pre>
+
+<p>then skip ahead.</p>
+
+<p>Otherwise...</p>
 
 <ul>
 <li>Windows: <a href="http://railsinstaller.org/">http://railsinstaller.org/</a></li>
+<li>Other systems: follow the instructions <a href="http://www.wiki.devchix.com/index.php?title=Workshop_Installation_Notes_Rails_3">here</a> or <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec:rubygems">here</a></li>
 </ul>
 
 
 <h2>Install Jasmine</h2>
 
+<p>Jasmine is a JavaScript testing framework. While Jasmine can be run from a plain HTML file, we are using the Jasmine Server, which comes as a "gem" (a Ruby program).</p>
+
 <pre><code>gem install jasmine
-</code></pre>
-
-<h2>Install Git</h2>
-
-<ul>
-<li>Mac/Unix: <code>sudo port install git</code></li>
-<li>Windows: ???</li>
-</ul>
-
-
-<h2>Clone the repo</h2>
-
-<pre><code>git clone git://github.com/alexch/learn_javascript.git
 </code></pre>
 
 <h1>Learning</h1>
 
-<p>Your cloned repo has a list of chapter directories. Each directory has a spec file. You will write all the code to make all the specs in it pass.</p>
+<p>Your course directory has a list of chapter directories. Each directory has a spec file. You will write all the code to make all the specs in it pass.</p>
 
 <p>To get your feet wet in this process, go into the "hello" chapter with <code>cd 00_hello</code> and read the detailed instructions in its <a href="00_hello/index.html"><code>index.html</code> file</a>.</p>
+
+<p>Once you got through "hello", then congratulations! Now it's time to go to the
+next directory (whose name begins with <code>01_</code>) and start learning JavaScript!</p>
+
+<h1>Problems? Questions?</h1>
+
+<p>First, ask your neighbor. Then, ask your instructor.</p>
+
+<p>Then ask Google (seriously!). If there's an error, try copying the error string and pasting it into a <a href="http://google.com">Google</a> search box. If that doesn't help, do a search on one of these sites:</p>
+
+<ul>
+<li><a href="http://stackoverflow.com/">http://stackoverflow.com/</a></li>
+</ul>
+
+
+<p>You can also find help at the <a href="http://testfirst.org">TestFirst.org</a> site or the <a href="http://groups.google.com/group/test-first-teaching">Test-First Teaching mailing list</a>.</p>
 
 <h1>Resources</h1>
 
@@ -54,5 +96,13 @@
 <li><a href="http://www.sencha.com/blog/2011/01/14/headless-testing-for-continuous-integration-with-git-and-jasmine/">Headless Testing for Continuous Integration with Git and Jasmine</a></li>
 </ul>
 </li>
+<li><p><a href="http://developer.mozilla.org/en/JavaScript/Guide">Mozilla JavaScript Guide</a></p></li>
+<li><a href="http://bonsaiden.github.com/JavaScript-Garden/">JavaScript Garden</a> - "a growing collection of documentation about the most quirky parts of the JavaScript programming language. It gives advice to avoid common mistakes, subtle bugs, as well as performance issues and bad practices that non-expert JavaScript programmers may encounter on their endeavours into the depths of the language."</li>
 </ul>
 
+  </div>
+  <div class='footer'>
+    <a href="http://testfirst.org">TestFirst.org</a>
+  </div>
+</body>
+</html>
