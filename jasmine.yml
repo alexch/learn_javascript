@@ -1,4 +1,4 @@
-src_dir: .
+src_dir: '.'
 
 # all files, including specs, are included as src_files
 src_files:
@@ -7,5 +7,5 @@ src_files:
     - 'helpers/**/*.js'
 
 # in order to remove duplicates, specify a nonexistent dir for specs
-spec_dir: nada
+spec_dir: 'nada'
 
