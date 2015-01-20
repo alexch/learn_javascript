@@ -1,6 +1,7 @@
 Dir.chdir Rake.application.original_dir
 
 require 'jasmine'
+require 'yaml'
 load 'jasmine/tasks/jasmine.rake'
 
 def config_file
